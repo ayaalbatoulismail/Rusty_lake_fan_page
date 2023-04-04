@@ -1,0 +1,390 @@
+header{
+    display: flex;
+    background: #c02943;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: end ;
+    color: #000000;
+    font-family:'papyrus', sans-serif ;
+    position:sticky; top:0;left:0;
+    height: 130px;
+    /* margin-top: 0%; */
+    /* font-family:'MV Boli', sans-serif ; */
+    /* font-family:'Ink Free', sans-serif ; */
+    /* font-family:'Rockwell', sans-serif ; */
+    /* font-style: italic; */
+    
+}
+nav ul{
+  list-style: none;   
+  display:flex;
+  margin-bottom: 0px;
+  font-size: 110%;
+}
+li{
+    margin-right: 30PX;
+    margin-bottom: 0px;
+}
+img{
+    margin-bottom: 70px;
+    margin-left: 10px;
+    margin-right: 125px;
+}
+nav a{
+    text-decoration:underline;
+    color:black;
+
+}
+nav a:hover{
+    /* color: white; */
+    --h: -1.2em;   /* the height */
+    color: #0000;
+    overflow: hidden;
+    text-shadow: 
+      0 var(--_t,var(--h)) #fff,
+      0 0 var(--_c,#c02943);
+
+    transition: 0.3s;
+}
+
+
+.welcome{
+    display: flex;
+    align-content: space-around;
+    justify-content: flex;
+    background-image: url("join.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 450px;
+    margin-bottom: 0px ;
+    background-position: 0% 100%;
+    background-position: bottom 0px right 0px; 
+    text-align: center;
+}
+ .welcome p{
+    color: #000000;
+    font-family:'MV Boli', sans-serif ;
+    font-size: 110%;
+    margin-right: 0px; 
+    margin-top:6%; 
+    margin-left: 5%;
+
+ }
+ .welcome button{
+    padding: 10px 20px;
+    background-color:#c02943 ;
+    font-size: 90%;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    block-size: 50px;
+    /* margin-right: 100px; */
+    margin-top:  15%;
+    margin-left: -30%;
+    font-family:'papyrus', sans-serif ;
+    font-style: bold;
+ }
+ .welcome button:hover{
+    color: #fff;
+ }
+
+ .about{
+    background-image: url("about backgr.png");
+    display: flex;
+    /* background-color: #c02943; */
+    background-size: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 470px;
+    margin-top: 0px ;
+    margin-bottom: 0%;
+    background-repeat: no-repeat;
+    /* background-position: top 0px right 0px; */
+    align-items: end ;
+ } 
+ .about h2{
+    font-family:'MV Boli', sans-serif ;
+    font-size: 200%;
+    margin-right:0% ;
+    margin-left: 20%;
+    margin-bottom: 6%;
+ }
+ .about p{
+    font-family:'MV Boli', sans-serif ;
+    font-size: 120%;
+    margin-right: 10px; 
+    margin-left: 10%;
+    margin-bottom:4% ;
+ }
+
+
+ .games{
+    background-image: url("time line.jpg");
+    display: flex;
+    background-size:100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    margin-top: 0px ;
+    background-repeat: no-repeat;
+    background-position: top 0px right 0px;
+    align-items: top ;
+    color: #f2e5e5;
+ }
+ .games h2{
+    font-family:'MV Boli', sans-serif ;
+    font-size: 230%;
+    margin-right:0px ;
+    margin-left: 2%;
+    margin-bottom: 100px;
+ }
+ .games p{
+    font-family:'MV Boli', sans-serif ;
+    font-size: 130%;
+    margin-right: 0px; 
+    margin-top:100px; 
+    margin-left: 0px;
+ }
+ .map {
+   background-image: url("map.jpg");
+    display: flex;
+    background-size:100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 900px;
+    margin-top: 0px ;
+    background-repeat: no-repeat;
+    background-position: top 0px right 0px;
+    align-items: top ;
+    color: #f2e5e5;
+ }
+ .map h2{
+   font-family:'MV Boli', sans-serif ;
+   font-size: 230%;
+ }
+
+
+ 
+ .art{
+   background-image: url("fan backgr.png");
+   background-size:cover;
+   align-content: start;
+    justify-content: center;
+   height: cover;
+   background-repeat: no-repeat;
+   background-position: top 0px right 0px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap:20px;
+   color: #f2e5e5;
+
+ }
+.art h2{
+   font-family:'MV Boli', sans-serif ;
+   font-size: 300%;
+   text-align:center;
+   margin-top: 100px;
+   
+ }
+ .art p{
+   font-family:'MV Boli', sans-serif ;
+   font-size: 130%;
+   
+ }
+.art img{
+   margin-left: 55px;
+   width: 80%;
+   height: auto;
+   border-radius: 5px;
+}
+
+
+
+footer{
+  align-items:last baseline;
+   padding: 20px 20px;
+   display: flex;
+   text-align: center;
+   background-color: #c02943;
+   height: 460px;
+
+ }
+ footer div a{
+
+   position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+    background: #c02943;
+    border-radius: 100px;
+    transition: opacity 0.2s  ease-in;
+    box-shadow: 0px 0px 15px 0px #351723;
+ }
+footer p{
+   font-size: 14px;
+   color: #36333399;
+   margin: 8px;
+
+}
+ 
+ /* Style inputs */
+ input[type=text], select, textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+ }
+ 
+ input[type=submit] {
+   background-color: #04AA6D;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ input[type=submit]:hover {
+   background-color: #45a049;
+ }
+ 
+ /* Style the container/contact section */
+ .container {
+   border-radius: 5px;
+   background-color: #c02943;
+   color: #000;
+   padding: 10px;
+   font-family:'papyrus', sans-serif  ;
+   width: 90%;
+   float:inline-start;
+   height: 100px;
+   
+ }
+ 
+ /* Create two columns that float next to eachother */
+ .column {
+   float: left;
+   width: 45%;
+   margin-top: 5px;
+   padding: 2px;
+ }
+
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .column, input[type=submit] {
+     width: 50%;
+     margin-top: 0;
+   }
+ }  
+
+
+ .wrapper{
+  display: inline-block;
+
+}
+.wrapper .icon{
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  /* transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+}
+.wrapper .icon span{
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: #948a8a;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon span i{
+  line-height: 60px;
+  font-size: 25px;
+}
+.wrapper .icon .tooltip{
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+/* .wrapper .icon:hover .tooltip{
+  top: -70px;
+  opacity: 1;
+  pointer-events: auto;
+} */
+/* .icon .tooltip:before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%) rotate(45deg);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+} */
+.wrapper .icon:hover span{
+  color: #fff;
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip{
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip:before{
+  background: #3B5999;
+}
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip:before{
+  background: #46C1F6;
+}
+.wrapper .instagram:hover span,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip:before{
+  background: #e1306c;
+}
+.wrapper .github:hover span,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip:before{
+  background: #333;
+}
+.wrapper .youtube:hover span,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip:before{
+  background: #DE463B;
+}
